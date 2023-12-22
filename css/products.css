@@ -1,0 +1,197 @@
+body {
+    background-image: url(/img/lo.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    max-width: 100%;
+}
+
+.bg {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+ul li a {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.menu{
+    width: 100%;
+    padding: 70px;
+}
+
+.menu h1{
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.menu h1 span{
+    color: #fac031;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+    margin-left: 15px;
+    font-family: mv boli;
+}
+
+.menu .menu_box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu .menu_box .menu_card{
+    width: 325px;
+    height: 480px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.menu .menu_box .menu_card .menu_image{
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.menu .menu_box .menu_card .menu_image:hover img{
+    transform: scale(1.1);
+}
+
+.menu .menu_box .menu_card .menu_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: #fac031;
+}
+
+.menu .menu_box .menu_card .menu_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+    font-family: sans-serif;
+}
+
+.menu .menu_box .menu_card .menu_info h3{
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.menu .menu_box .menu_card .menu_info .menu_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #fac031;
+    padding: 8px 10px;
+    margin: 0 80px;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu .menu_box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu .menu_box .menu_card{
+        width: 220px;
+        height: 550px;
+        margin-bottom: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    
+    .menu .menu_box .menu_card .menu_image{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .menu .menu_box .menu_card .menu_image img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: 0.3s;
+    }
+
+    .menu .menu_box .menu_card .menu_info h2{
+        width: 60%;
+        text-align: center;
+        margin: 10px auto 10px auto;
+        font-size: 25px;
+        color: #fac031;
+    }
+    
+    .menu .menu_box .menu_card .menu_info p{
+        text-align: center;
+        margin-top: 8px;
+        line-height: 21px;
+        font-family: sans-serif;
+    }
+    
+    .menu .menu_box .menu_card .menu_info h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .menu .menu_box .menu_card .menu_info .menu_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        background: #fac031;
+        padding: 7px;
+        margin: 10px 60px;
+        width: 100px;
+        position: relative;
+        transition: 0.3s;
+    }
+
+    .menu h1{
+        font-size: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu h1 span{
+        color: #fac031;
+        font-weight: bold;
+        text-shadow: 2px 2px white;
+        margin-left: 15px;
+        font-family: mv boli;
+    }
+}
+
+

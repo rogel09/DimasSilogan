@@ -1,0 +1,101 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/lo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    max-width: 100%;
+    position: fixed;
+}
+
+.bg {
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+ul li a {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .content {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container .content h1 {
+        font-size: 75px;
+        font-family: mv boli;
+        color: #fac031;
+        font-weight: bold;
+        text-shadow: 2px 2px white;
+        margin-top: 70px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Noto Rashi Hebrew', sans-serif;
+                                                
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width:2500px) {
+    .container{
+        display: flex;
+        height: 70vh;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        top: 130px; 
+    }
+    
+    .container .content h1{
+        font-size: 80px;
+        position: relative;
+        color: #fac031;
+        font-family: mv boli;
+        font-weight: bold;
+        text-shadow: 2px 2px white;
+        top: -90px;
+        left: 20px;
+    }
+    
+    .container .main_image img{
+        width: 650px;
+        position: relative;
+        left: 70px;
+    }
+    
+    p{
+        width: 40%;
+        text-align: justify;
+        position: relative;
+        left: 133px;
+        bottom: 140px;
+        line-height: 22px;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+}
